@@ -18,7 +18,7 @@ Run `yarn test` to execute the test suite.
 
 ## Usage
 
-Install this in another project via `yarn add @daikiriswap/lib`
+Install this in another project via `yarn add @daikiri/daikiriswap-lib`
 
 Then import the contracts via:
 
