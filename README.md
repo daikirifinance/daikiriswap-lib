@@ -23,6 +23,6 @@ Install this in another project via `yarn add @daikiri/daikiriswap-lib`
 Then import the contracts via:
 
 ```solidity
-import '@daikiriswap/lib/contracts/libraries/Babylonian.sol';
+import '@daikiri/daikiriswap-lib/contracts/libraries/Babylonian.sol';
 
 ```
