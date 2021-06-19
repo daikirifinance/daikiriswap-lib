@@ -1,18 +1,18 @@
 {
-  "name": "@uniswap/lib",
-  "version": "4.0.1-alpha",
-  "description": "📖 Solidity libraries that are shared across Uniswap contracts",
+  "name": "@daikiri/daikiriswap-lib",
+  "version": "1.0.0",
+  "description": "📖 Solidity libraries that are shared across DaikiriSwap contracts",
   "files": [
     "contracts",
     "!contracts/test"
   ],
-  "homepage": "https://uniswap.org",
+  "homepage": "https://daikiri.finance",
   "repository": {
-    "url": "https://github.com/Uniswap/uniswap-lib",
+    "url": "git+https://github.com/DaikiriFinance/daikiriswap-lib.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/Uniswap/uniswap-lib/issues"
+    "url": "https://github.com/DaikiriFinance/daikiriswap-lib/issues"
   },
   "engines": {
     "node": ">=10"
@@ -43,5 +43,11 @@
     "test": "mocha",
     "prepublishOnly": "yarn test"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "author": ""
 }
